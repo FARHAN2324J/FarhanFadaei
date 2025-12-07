@@ -2,7 +2,7 @@
 
 [ 🌐 View Live Portfolio](https://farhan2324j.github.io/FarhanFadaei/)
 
-## Portfolio screenshots 🖼️
+## Screenshots 🖼️
 
 ![Portfolio Screenshot 1](./src/assets/images/screenshotPF2.png)
 ![Portfolio Screenshot 2](./src/assets/images/screenshotPF.png)
