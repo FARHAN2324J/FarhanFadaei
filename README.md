@@ -1,6 +1,6 @@
 # Farhan Fadaei - Frontend Developer 👨‍💻
 
-[🌐 View Live Portfolio](https://farhan2324j.github.io/FarhanFadaei/)
+[View Live Portfolio](https://farhan2324j.github.io/FarhanFadaei/ 🌐)
 
 ## Portfolio screenshots 🖼️
 
