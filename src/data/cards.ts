@@ -1,5 +1,6 @@
 import MNTN from "../assets/images/MNTN.webp";
 import Finance from "../assets/images/Finance.webp";
+import Veloce from "../assets/images/Framev.webp";
 import RunningForChange from "../assets/images/RunningForChange.webp";
 import Planto from "../assets/images/Planto.webp";
 import type { Types } from "../types/types";
@@ -58,14 +59,20 @@ export const cards: Card[] = [
   },
   {
     id: 3,
+    title: "Véloce",
+    src: Veloce,
+    tags: ["React", "TypeScript", "TailwindCSS", "SplitText"],
+    category: "learning",
+    links: {
+      info: "#",
+      live: "https://farhan2324j.github.io/VELOSE/",
+    },
+  },
+  {
+    id: 4,
     title: "Noble Finances",
     src: Finance,
-    tags: [
-      "React",
-      "TypeScript",
-      "TailwindCSS",
-      "GSAP",
-    ],
+    tags: ["React", "TypeScript", "TailwindCSS", "GSAP"],
     category: "learning",
     links: {
       info: "#",
@@ -73,14 +80,10 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "MNTN",
     src: MNTN,
-    tags: [
-      "React",
-      "TailwindCSS",
-      "ScrollTrigger",
-    ],
+    tags: ["React", "TailwindCSS", "ScrollTrigger"],
     category: "learning",
     links: {
       info: "#",
