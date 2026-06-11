@@ -164,6 +164,32 @@ export const skillsData: skills[] = [
     ),
   },
   {
+    id: 8,
+    title: "Supabase",
+    icon: (
+      <svg width="60" height="60" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_2040_28)">
+          <path d="M29.2283 49.1693C27.951 50.7779 25.3611 49.8966 25.3303 47.8426L24.8802 17.8016H45.0798C48.7385 17.8016 50.779 22.0274 48.5039 24.8928L29.2283 49.1693Z" fill="url(#paint0_linear_2040_28)" />
+          <path d="M29.2283 49.1693C27.951 50.7779 25.3611 49.8966 25.3303 47.8426L24.8802 17.8016H45.0798C48.7385 17.8016 50.779 22.0274 48.5039 24.8928L29.2283 49.1693Z" fill="url(#paint1_linear_2040_28)" fill-opacity="0.2" />
+          <path d="M21.0132 0.830791C22.2906 -0.777947 24.8805 0.103525 24.9113 2.15747L25.1085 32.1984H5.16178C1.50299 32.1984 -0.537584 27.9726 1.73756 25.1072L21.0132 0.830791Z" fill="#3ECF8E" />
+        </g>
+        <defs>
+          <linearGradient id="paint0_linear_2040_28" x1="24.8802" y1="24.4625" x2="42.8329" y2="31.9918" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#249361" />
+            <stop offset="1" stop-color="#3ECF8E" />
+          </linearGradient>
+          <linearGradient id="paint1_linear_2040_28" x1="16.921" y1="13.5648" x2="25.1083" y2="28.9771" gradientUnits="userSpaceOnUse">
+            <stop />
+            <stop offset="1" stop-opacity="0" />
+          </linearGradient>
+          <clipPath id="clip0_2040_28">
+            <rect width="50" height="50" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+  },
+  {
     id: 9,
     title: "Git",
     icon: (
