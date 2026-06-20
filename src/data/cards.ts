@@ -3,6 +3,8 @@ import Finance from "../assets/images/Finance.webp";
 import Veloce from "../assets/images/Framev.webp";
 import RunningForChange from "../assets/images/RunningForChange.webp";
 import Planto from "../assets/images/Planto.webp";
+import Blog from "../assets/images/Blog.webp";
+
 import type { Types } from "../types/types";
 
 export interface Card extends Omit<Types, "alt" | "caption" | "description"> {
@@ -20,6 +22,17 @@ export interface Card extends Omit<Types, "alt" | "caption" | "description"> {
 export const cards: Card[] = [
   {
     id: 1,
+    title: "Blog",
+    src: Blog,
+    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase"],
+    category: "featured",
+    links: {
+      info: "#",
+      live: "https://blog-farhan.vercel.app/",
+    },
+  },
+  {
+    id: 2,
     title: "Planto",
     src: Planto,
     tags: ["React", "TypeScript", "Zustand", "TailwindCSS"],
@@ -40,7 +53,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "RunningForChange",
     src: RunningForChange,
     tags: [
@@ -58,7 +71,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "Véloce",
     src: Veloce,
     tags: ["React", "TypeScript", "TailwindCSS", "SplitText"],
@@ -69,7 +82,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "Noble Finances",
     src: Finance,
     tags: ["React", "TypeScript", "TailwindCSS", "GSAP"],
@@ -80,7 +93,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: "MNTN",
     src: MNTN,
     tags: ["React", "TailwindCSS", "ScrollTrigger"],
