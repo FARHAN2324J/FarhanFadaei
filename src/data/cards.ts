@@ -27,16 +27,17 @@ export const cards: Card[] = [
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase"],
     category: "featured",
     features: [
-      "Blog post listing with loading skeletons",
-      "Debounced search to filter posts in real time",
-      "Pagination for navigating between posts",
-      "Dynamic post pages with individual routes",
-      "Dark / light mode toggle",
-      "Social media share buttons",
-      "Recent posts section",
+      "📰 Blog post listing with loading skeletons",
+      "🔍 Debounced post search to avoid unnecessary requests",
+      "📄 Pagination for navigating between posts",
+      "🧾 Dedicated post page with dynamic routing (/[id])",
+      "🌗 Dark / Light mode switch with next-themes",
+      "🔗 Social media share buttons for posts",
+      "🕒 Recent Posts section",
+      "⚠️ Custom error and not-found pages"
     ],
     description:
-      "A modern blog application built with Next.js, TypeScript, Tailwind CSS, and Supabase. Fetches and displays blog posts with search, pagination, and dark/light mode support.",
+      "A modern blog application built with Next.js, TypeScript, Tailwind CSS, and Supabase. The project fetches blog posts from Supabase and offers features like search, pagination, dark/light mode, and social media sharing.",
     links: {
       source: "https://github.com/FARHAN2324J/Blog",
       info: "#",
