@@ -26,7 +26,19 @@ export const cards: Card[] = [
     src: Blog,
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase"],
     category: "featured",
+    features: [
+      "Blog post listing with loading skeletons",
+      "Debounced search to filter posts in real time",
+      "Pagination for navigating between posts",
+      "Dynamic post pages with individual routes",
+      "Dark / light mode toggle",
+      "Social media share buttons",
+      "Recent posts section",
+    ],
+    description:
+      "A modern blog application built with Next.js, TypeScript, Tailwind CSS, and Supabase. Fetches and displays blog posts with search, pagination, and dark/light mode support.",
     links: {
+      source: "https://github.com/FARHAN2324J/Blog",
       info: "#",
       live: "https://blog-farhan.vercel.app/",
     },
