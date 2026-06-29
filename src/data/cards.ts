@@ -4,6 +4,7 @@ import Veloce from "../assets/images/Framev.webp";
 import RunningForChange from "../assets/images/RunningForChange.webp";
 import Planto from "../assets/images/Planto.webp";
 import Blog from "../assets/images/Blog.webp";
+import Updev from "../assets/images/updev.jpg";
 
 import type { Types } from "../types/types";
 
@@ -22,6 +23,27 @@ export interface Card extends Omit<Types, "alt" | "caption" | "description"> {
 export const cards: Card[] = [
   {
     id: 1,
+    title: "UPDEV",
+    src: Updev,
+    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase", "Prisma"],
+    category: "featured",
+    features: [
+      "📰 Aggregated RSS feeds",
+      "🏷️ Filter articles by category",
+      "📄 Pagination: browse through a clean, paginated feed",
+      "🔍 Clean and intuitive reading experience",
+      "🌐 Deployed on Vercel",
+    ],
+    description:
+      "A platform that aggregates the latest articles and updates from popular technology websites, making it easy to stay informed without switching between multiple sources.",
+    links: {
+      source: "https://github.com/FARHAN2324J/UPDEV",
+      info: "#",
+      live: "https://updev-app.vercel.app/",
+    },
+  },
+  {
+    id: 2,
     title: "Blog",
     src: Blog,
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase"],
@@ -34,7 +56,7 @@ export const cards: Card[] = [
       "🌗 Dark / Light mode switch with next-themes",
       "🔗 Social media share buttons for posts",
       "🕒 Recent Posts section",
-      "⚠️ Custom error and not-found pages"
+      "⚠️ Custom error and not-found pages",
     ],
     description:
       "A modern blog application built with Next.js, TypeScript, Tailwind CSS, and Supabase. The project fetches blog posts from Supabase and offers features like search, pagination, dark/light mode, and social media sharing.",
@@ -45,7 +67,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "Planto",
     src: Planto,
     tags: ["React", "TypeScript", "Zustand", "TailwindCSS"],
@@ -66,7 +88,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "RunningForChange",
     src: RunningForChange,
     tags: [
@@ -84,7 +106,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "Véloce",
     src: Veloce,
     tags: ["React", "TypeScript", "TailwindCSS", "SplitText"],
@@ -95,7 +117,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: "Noble Finances",
     src: Finance,
     tags: ["React", "TypeScript", "TailwindCSS", "GSAP"],
@@ -106,7 +128,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     title: "MNTN",
     src: MNTN,
     tags: ["React", "TailwindCSS", "ScrollTrigger"],
