@@ -5,6 +5,7 @@ import RunningForChange from "../assets/images/RunningForChange.webp";
 import Planto from "../assets/images/Planto.webp";
 import Blog from "../assets/images/Blog.webp";
 import Updev from "../assets/images/updev.jpg";
+import StandUp from "../assets/images/StandUp.webp";
 
 import type { Types } from "../types/types";
 
@@ -25,7 +26,7 @@ export const cards: Card[] = [
     id: 1,
     title: "UPDEV",
     src: Updev,
-    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase", "Prisma"],
+    tags: ["NextJS", "TypeScript", "TailwindCSS", "Supabase", "Prisma"],
     category: "featured",
     features: [
       "📰 Aggregated RSS feeds",
@@ -46,7 +47,7 @@ export const cards: Card[] = [
     id: 2,
     title: "Blog",
     src: Blog,
-    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Supabase"],
+    tags: ["NextJS", "TypeScript", "TailwindCSS", "Supabase"],
     category: "featured",
     features: [
       "📰 Blog post listing with loading skeletons",
@@ -68,6 +69,35 @@ export const cards: Card[] = [
   },
   {
     id: 3,
+    title: "StandUp",
+    src: StandUp,
+    tags: [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Prisma",
+      "Supabase",
+      "SupabaseAuth",
+    ],
+    features: [
+      "Workspaces — create or join multiple workspaces via a shareable invite link",
+      "Roles — OWNER / MEMBER permissions, with ownership transfer support",
+      "Daily reports — submit yesterday / today / blockers updates, one per person per day per workspace",
+      "AI summaries — automatic team-standup summarization with provider fallback (Groq → Pollinations → Gemini)",
+      "Authentication — email/password and Google OAuth via Supabase, with automatic account sync into the app's own database",
+      "Access control — server-side permission checks on every mutation (not just hidden UI), workspace membership verified before any read or write",
+    ],
+    description:
+      "Async standups for remote teams — no meetings required, Submit daily updates, track team activity across workspaces, and get AI-generated summaries automatically.",
+    category: "featured",
+    links: {
+      source: "https://github.com/attarnia/standup.io",
+      info: "#",
+      live: "https://standup-io.vercel.app/",
+    },
+  },
+  {
+    id: 4,
     title: "Planto",
     src: Planto,
     tags: ["React", "TypeScript", "Zustand", "TailwindCSS"],
@@ -88,7 +118,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: "RunningForChange",
     src: RunningForChange,
     tags: [
@@ -106,7 +136,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: "Véloce",
     src: Veloce,
     tags: ["React", "TypeScript", "TailwindCSS", "SplitText"],
@@ -117,7 +147,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     title: "Noble Finances",
     src: Finance,
     tags: ["React", "TypeScript", "TailwindCSS", "GSAP"],
@@ -128,7 +158,7 @@ export const cards: Card[] = [
     },
   },
   {
-    id: 7,
+    id: 8,
     title: "MNTN",
     src: MNTN,
     tags: ["React", "TailwindCSS", "ScrollTrigger"],
